@@ -1,0 +1,63 @@
+@media(max-width: 768px){
+    .footer-navegation {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .footer-navegation a {
+        margin-top: 20px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 50%;
+        background-size: contain;
+        height: 100%;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+       
+    }
+
+    .title-logos {
+        width: 100%;
+        height: 200px;
+    }
+
+    .contact {
+        width: 100%;
+        height: 500px;
+       
+    }
+
+    form {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 200px;
+    }
+
+    label {
+        margin-bottom: 10px;
+    }
+    
+    #name,
+    #email,
+    #number{
+        padding: 15px;
+        margin-bottom: 50px;
+    }
+
+    .botao {
+       width: 80%;
+       padding: 15px 0;
+       margin: 0 auto;
+       margin-top: 30px;
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsivo-contato.css">
+
+    <title>Contate-nos</title>
+</head>
+<body>
+
+    <header>
+        <img id="logo" src="src/imagens/logo.png" alt="logo-batman">
+        
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+
+                <a href="contatos.html">
+                    <li>Contato</li>
+                </a>
+
+                <a href="elenco.html">
+                    <li>Elenco</li>
+                </a>
+                
+                <a href="comentarios.html">
+                    <li>Comentários</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="banner">
+        <div class="container">
+            <div class="title-logos">
+                <div class="title">
+                    <h1>Contact us/Contate-nos</h1>
+                </div>
+                
+                <div class="logos">
+                    <a class="logo-insta" href="https://www.instagram.com" target="_blank"><img src="src/logos/insta-32x32.png" alt="logo instagram"></a>
+                    <a class="logo-dc" href="https://discord.com/login" target="_blank"><img src="src/logos/discord-32x32.png" alt="logo discord"></a>
+                    <a class="logo-lk" href="https://www.linkedin.com" target="_blank"><img src="src/logos/linkedin-32x32.png" alt="logo linkedin"></a>
+                </div>
+            </div>
+            
+            <div class="contact">
+                <form action="contatos.html">
+
+                <label for="name">Nome</label>
+                <input style="display: block;" type="text" name="name" id="name" placeholder="Insira seu nome" required >
+
+                <label for="email">Email</label>
+                <input style="display: block;" type="email" name="email" id="email" placeholder="Insira um Email válido" required >
+
+                <label for="number">Número</label>
+                <input style="display: block;" type="number" name="number" id="number" placeholder="Digite seu número" maxlength="11"required >
+
+                <label for="mensagem">Sua mensagem</label>
+                <textarea style="display: block;" name="mensagem" id="mensagem" cols="30" rows="3" placeholder="Digite aqui sua mensagem" required ></textarea>
+        
+                <button class="botao" style="display: block;" class="botao-enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+        <footer>
+            <img id="logo" src="src/imagens/logo.png">
+            <span>Todos os direitos reservados ©</span>
+            <span>Desenvolvido por: <i>Lucas Mendes</i></span>
+    
+            <nav class="footer-navegation">
+                <ul class="footer-list">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+    
+                    <a href="contatos.html">
+                        <li>Contatos</li>
+                    </a>
+    
+                    <a href="elenco.html">
+                        <li>Elenco</li>
+                    </a>
+                    
+                    <a href="comentarios.html">
+                        <li>Comentários</li>
+                    </a>
+                </ul>
+            </nav>
+        </footer>
+</body>
+</html>
