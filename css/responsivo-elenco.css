@@ -67,4 +67,29 @@
         width: 100%;
         height: 20em;
     }
+
+    footer {
+        height: 390px;
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0 auto;
+    }
+
+
+    .footer-navegation {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-list a li {
+        font-size: 1.2rem;
+    }
 }
